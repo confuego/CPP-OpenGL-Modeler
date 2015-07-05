@@ -1,0 +1,36 @@
+﻿Build started 5/3/2014 11:28:50 AM.
+     1>Project "C:\Users\Wesley\Desktop\final\FinalProj\FinalProj\FinalProj.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Wesley\Desktop\cpp_GUI_TK\fltk-1.3.2" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Display.cpp
+         Display.cpp
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\algebra3.h(24): warning C4005: 'V_ERROR' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\um\oleauto.h(1403) : see previous definition of 'V_ERROR'
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(9): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(13): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(16): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(40): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(48): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(78): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(88): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(178): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(184): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(188): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(192): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(196): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(200): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\wesley\desktop\final\finalproj\finalproj\display.cpp(204): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Wesley\Desktop\final\FinalProj\Debug\FinalProj.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Wesley\Desktop\cpp_GUI_TK\fltk-1.3.2/lib" fltkd.lib fltkgld.lib wsock32.lib comctl32.lib opengl32.lib fltkjpegd.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Wesley\Desktop\final\FinalProj\Debug\FinalProj.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Wesley\Desktop\final\FinalProj\Debug\FinalProj.lib" /MACHINE:X86 Debug\algebra3.obj
+         Debug\camera.obj
+         Debug\Display.obj
+         Debug\eController.obj
+         Debug\GLWindow.obj
+         Debug\main.obj
+         Debug\Map.obj
+         FinalProj.vcxproj -> C:\Users\Wesley\Desktop\final\FinalProj\Debug\FinalProj.exe
+     1>Done Building Project "C:\Users\Wesley\Desktop\final\FinalProj\FinalProj\FinalProj.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01
